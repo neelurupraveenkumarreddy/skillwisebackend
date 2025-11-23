@@ -13,4 +13,4 @@ app.use("/api/history",phRoutes)
 app.use("/api/products",productRoutes)
 app.use("/api/roles",rolesRoutes)
 
-app.listen(process.env.PORT, () => console.log(`Server running on port ${process.env.port}`));
+app.listen(5500, () => console.log(`Server running on port ${process.env.port}`));
